@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 20px;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*App.js*/
+.main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Content.js*/
+
+.content__container{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+}
+
+/*AddColor.js*/
+.formColor{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.formColor input{
+  width: 300px;
+  height: 30px;
+  border-radius: 0.25rem;
+}
+
+.formColor input::placeholder{
+  padding-left: 0.25rem;
+}
+
+.formColor label{
+  position: absolute;
+  left: -99999px;
+}
